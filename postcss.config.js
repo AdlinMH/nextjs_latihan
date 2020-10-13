@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     'tailwindcss',
-    'postcss-flecbugs-fixes',
+    'postcss-flexbugs-fixes',
     [
       'postcss-preset-env',
       {

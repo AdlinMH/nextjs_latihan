@@ -1,8 +1,16 @@
 module.exports = {
-  purge: [
-    // Use *.tsx if using TypeScript
-    './pages/**/*.js',
-    './components/**/*.js'
-  ]
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+    standardFontWeights: true,
+  },
+  purge: {
+    layers: ['utilities'],
+    content: [
+      // Use *.tsx if using TypeScript
+      './pages/**/*.js',
+      './components/**/*.js',
+    ],
+  },
   // ...
 }
