@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 const name = "Adlin Mohammad H"
 export const siteTitle = 'Next.js Sample Website'
 
-function Layout({ children, home }) {
+const Layout = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,6 +25,12 @@ function Layout({ children, home }) {
       </Head>
 
       <header className={styles.header}>
+        <div className={utilStyles.headingMenu}>
+          <Link href={'/auth/signin'}>
+            <small><a>[signin]</a></small>
+          </Link>
+        </div>
+
         {home ? (
           <>
             <img

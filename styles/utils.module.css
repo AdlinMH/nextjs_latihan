@@ -25,6 +25,13 @@
   line-height: 1.5;
 }
 
+.headingMenu {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
