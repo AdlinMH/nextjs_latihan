@@ -13,6 +13,7 @@
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
     "next": "9.5.3",
+    "next-iron-session": "^4.1.9",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
